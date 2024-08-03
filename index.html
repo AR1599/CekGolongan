@@ -5,31 +5,41 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>CekGolongan</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-
 	<link rel="icon" href="images/search.png">
 </head>
 <body>
 	<div id="judulContainer">
-		<img src="images/search.gif" id="iconGif" alt="search gif">
+		<img src="images/search.gif" id="iconGif" alt="searchGif">
 		<h1>CekGolongan</h1>
 		<h2>by <a href="https://instagram.com/ar1599z/">@AR1599</a></h2>
 	</div>
 	<div id="kontenContainer">
 		<div id="formContainer">
+			<h3>Masukkan Nama dan Usiamu Dibawah ini!</h3>
 			<form id="cekForm">
-				<input type="text" name="nama" id="namaInput" autocomplete="off" required>
-				<label for="namaInput">Masukkan Namamu</label>
-				<input type="number" name="usia" id="usiaInput" autocomplete="off" required>
-				<label for="usiaInput">Masukkan Usiamu</label>
+				<div class="inputContainer">
+					<input type="text" name="nama" id="namaInput" autocomplete="off" placeholder=" " required>
+					<label for="namaInput">Nama</label>
+				</div>
+				<div class="inputContainer">
+					<input type="number" name="usia" id="usiaInput" autocomplete="off" placeholder=" " required>
+					<label for="usiaInput">Usia</label>
+				</div>
 				<button type="submit">Cek</button>
 			</form>
 		</div>
 	</div>
-	<div id="creditContainer">
-		<p>Made with Love By</p>
-		<a href="https://github.com/AR1599">@AR1599<a>
-		<a href="https://instagram.com/ar1599z/">@ar1599z</a>
+	<div id="helpContainer">
+		<p><a href="https://www.instagram.com/direct/t/17843030439100058/">DM Saya</a> Jika Ada Tambahan Ide, Kesalahan, Bug, Sosok Hytam(woilah rek), Rusdi Ngawi, User Alu dan sebagainya</p>
 	</div>
+	<div id="creditContainer">
+		<p>Made with <img src="images/heart.png" alt="heart"> By</p>
+		<div id="social">
+			<a href="https://github.com/AR1599"><img src="images/github.png" alt="github">@AR1599<a>
+			<a href="https://instagram.com/ar1599z/"><img src="images/instagram.png" alt="instagram">@ar1599z</a>
+		</div>
+	</div>
+	<p>Demo Version ;)</p>
 
 	<script type="text/javascript" src="script.js"></script>
 </body>
