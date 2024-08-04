@@ -25,8 +25,9 @@ body {
 	text-align: center;
 }
 
+/*judulContainer*/
 #judulContainer {
-	margin: 10px 0px 20px 0px;
+	margin-bottom: 20px;
 	font-family: lato;
 }
 
@@ -44,14 +45,26 @@ body {
 	height: 60px;
 	border-radius: 100%;
 }
+/*judulContainer END*/
 
+/*kontenContainer*/
 #kontenContainer {
 	width: 300px;
 	height: 250px;
 	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background-color: rgba(100, 100, 100, 0.3);
 	backdrop-filter: blur(10px);
 	border-radius: 10px;
+	border: 1px solid #f7f7f7;
+}
+
+#kontenContainer p {
+	font-size: 30px;
+	font-weight: 600;
+	color: blue;
 }
 
 #cekForm {
@@ -96,7 +109,7 @@ body {
 
 input:focus + label,
 input:not(:placeholder-shown) + label {
-	transform: translateY(-20px);
+	transform: translateY(-25px);
 }
 
 button {
@@ -114,13 +127,23 @@ button:focus {
 	color: white;
 }
 
+/*kontenContainer END*/
+
+/*helpContainer*/
 #helpContainer {
-	margin-top: 20px;
+	margin: 20px;
 	width: 400px;
 }
 
+#helpContainer a {
+	color: red;
+	text-decoration: none;
+}
+/*helpContainer END*/
+
+/*creditContainer*/
 #creditContainer {
-	margin: 10px 0px 15px 0px;
+	margin-bottom: 20px;
 }
 
 #creditContainer p {
@@ -153,3 +176,5 @@ button:focus {
 	background-color: white;
 	border-radius: 100%;
 } 
+/*creditContainer END*/
+
