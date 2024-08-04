@@ -131,7 +131,7 @@ button:focus {
 
 /*helpContainer*/
 #helpContainer {
-	margin: 20px;
+	margin: 20px 10px;
 	width: 400px;
 }
 
